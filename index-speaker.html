@@ -681,7 +681,7 @@
 <p><span class="math display">\[\begin{align}
 \text{reduced form:}&amp;&amp;\mathbf{y}_t &amp;= \mathbf{A}\mathbf{x}_t + \boldsymbol{\varepsilon}_t \\
 \text{error term:}&amp;&amp;\boldsymbol{\varepsilon}_t\mid\mathbf{x}_t &amp;\sim N\left( \mathbf{0}_N, \boldsymbol{\Sigma} \right)\\
-\text{rotation:}&amp;&amp;\mathbf{Q} &amp;\sim \mathcal{H}aar \\
+\text{rotation:}&amp;&amp;\mathbf{Q} &amp;\sim Haar \\
 \text{structural form:}&amp;&amp;\left(\mathbf{A}, \boldsymbol{\Sigma}, \mathbf{Q}\right) &amp;\rightarrow\left(\mathbf{A}, \mathbf{B}_0\right)
 \end{align}\]</span></p>
 <ul>
@@ -729,7 +729,7 @@
 <p><span class="math display">\[\begin{align}
 \text{structural shocks:}&amp;&amp;\mathbf{u}_t\mid s_t &amp;\sim N\left( \mathbf{0}_N, \text{diag}\left(\boldsymbol{\sigma}_{s_t}^2\right) \right)\\
 \text{prior &amp; standardisation:}&amp;&amp; M^{-1}\left(\boldsymbol{\sigma}_{1}^2, \dots, \boldsymbol{\sigma}_{M}^2\right) &amp;\sim Dirichlet(\underline{a}\boldsymbol\imath')\\
-\text{latent process:}&amp;&amp; s_t&amp;\sim \text{ Markov or independent}
+\text{latent process:}&amp;&amp; s_t&amp;\sim \text{Markov or independent}
 \end{align}\]</span></p>
 <ul>
 <li>modeling Markov-switching or mixture models</li>
@@ -775,7 +775,7 @@ SDDR = \frac{\Pr[H_0 | data]}{\Pr[H_1 | data]}= \frac{p(H_0 | data)}{p(H_0 )}
 <ul>
 <li>suitable to verify sharp restrictions on parameters</li>
 <li>is interpreted as posterior odds ratio</li>
-<li>values greater than 1 provide evidence in favor of the restriction</li>
+<li>values greater than 1 provide evidence in favour of the restriction</li>
 <li>simple to compute given the unrestricted model estimation output</li>
 <li>see methods <code>verify_identification()</code> and <code>verify_autoregression()</code></li>
 </ul>
@@ -785,7 +785,7 @@ SDDR = \frac{\Pr[H_0 | data]}{\Pr[H_1 | data]}= \frac{p(H_0 | data)}{p(H_0 )}
 </section>
 <section id="bsvars-modeling-of-monetary-policy-2" class="slide level2">
 <h2><a href="https://bsvars.github.io" style="color:#8c52ff;">bsvars</a> modeling of monetary policy</h2>
-<h3 id="domestic-economy.">Domestic economy.</h3>
+<h3 id="australian-domestic-sector.">Australian domestic sector.</h3>
 <p>Consider a system of five domestic variables:</p>
 <p><span class="math display">\[\begin{align}
 y_t = \begin{bmatrix} rgdp_t &amp; cpi_t &amp; CR_t &amp; EX_t &amp; aord_t \end{bmatrix}'
